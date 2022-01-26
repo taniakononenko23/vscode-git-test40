@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Code rendering</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Text aligning</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
     <style>
-        div {
-            font-size: 24px;
+        h1{
+            font-family: Verdana;
+            font-size: 74px;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 31%;
+            margin: 16px auto;
+        }
+        div{
+            background-color: coral;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            color: white;
+            text-transform: uppercase;
         }
     </style>
-</head>
+  </head>
 
-<body>
-    <div>Text</div>
-</body>
-
+  <body>
+    <header>
+      <h1>Some very long header. Really to long for this page</h1>
+    </header>
+    <div>Center is here</div>
+  </body>
 </html>
